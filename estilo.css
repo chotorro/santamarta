@@ -1,0 +1,169 @@
+/*Fuente de la página*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	font-family:'Open Sans';
+}
+
+/*Body y contenido*/
+body{
+	width:960px;
+	margin:0 auto;
+}
+.separado{
+	display:table;
+	width:100%;
+}
+section.contenedor{
+	float:left;
+	width:63%;
+	margin:0;
+}
+aside.cita{
+	text-align:center;
+	background-color:rgba(153, 102, 51, 0.6);
+	float:right;
+	width:30%;
+	padding:20px;
+	margin-top:70px;
+	font-weight:bold;
+}
+address{
+	font-style:normal;
+	margin-top:-30px;
+}
+section img{
+	float:left;
+}
+h1{
+	font-size:xx-large;
+	color:brown;
+}
+h2, h3{
+	color:brown;
+	font-size:large;
+}
+span{
+	color:brown;
+	font-weight:bold;
+}
+a{
+ 	color:brown;
+ 	text-decoration:none;
+ 	font-weight:bold;
+ }
+a:hover{
+ 	color:black;
+ }
+ul li{
+	list-style: url("./images/tiny-coffee-cup.gif");
+} 
+
+/*Cabecera*/
+header div{
+	background:url(./images/coffee-beans.jpg) no-repeat center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100px;
+   width: 100%;
+   margin:0;
+}
+header p{
+	text-align:left;
+	color: rgba(255,255,255,0.8);
+	font-size:50px;
+	font-weight:bold;
+	margin-left:30px;
+}
+
+/*Navegación principal*/
+header nav ul{
+	text-align:center;
+	background-color:brown;
+	margin-top:1px;
+}
+header nav ul li{
+	width:16%;
+	display:inline-block;
+	padding:20px 0;
+}
+header nav ul li:hover{
+	background-color:black;
+}
+header nav ul a{
+	color:white;
+	font-size:15px;
+	text-decoration:none;
+}
+header nav ul a:hover{
+	color:white;
+}
+
+
+/*Navegación del footer*/
+footer nav{
+	text-align:center;
+	margin-top:70px;
+	margin-bottom:70px;
+	vertical-align:bottom;
+}
+footer nav a{
+	color:grey;
+	margin:0 70px 0 0;
+}
+footer nav a:hover{
+	color:black;
+}
+
+/*Tabla de drinks*/
+table, td, th{
+	border:1px solid gray;
+	border-collapse:collapse;
+	text-align: center;
+}
+td,th{
+	width:192px;
+}
+
+/*Roasting*/
+#section{
+	width:64%;
+	float:left;
+	display:inline-block;
+}
+#section figure{
+	float:right;
+}
+#roasting aside{
+	text-align:center;
+	height:100%;
+	font-weight:bold;
+	width:35%;
+	float:right;
+	vertical-align: top;
+	background-color:rgba(153, 102, 51, 0.6);
+}
+#roasting aside figure{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+
+/*Grinding*/
+#grinding figure{
+	float:right;
+}
+div video{
+ 	margin:0 20%;
+ 	margin-bottom:60px;
+ }
+
+
+/*Survey*/
+ #survey aside{
+ 	float:right;
+ 	background-color:rgba(153, 102, 51, 0.6);
+ 	padding:30px 60px;
+ 	margin-left:20px;
+ }

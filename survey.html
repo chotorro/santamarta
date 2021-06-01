@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>Coffee Survey</title>
+		<link href="estilo.css" rel="stylesheet">
+	</head>
+
+<body>
+	<header>
+		<div alt="Un montón de granos de café" title="Coffee Beans">
+			<p>All about coffee</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="roasting.html">Roasting</a></li>
+				<li><a href="grinding.html">Grinding</a></li>
+				<li><a href="brewing.html">Brewing</a></li>
+				<li><a href="drinks.html">Drinks</a></li>
+				<li><a href="survey.html">Coffee Survey</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+<main id="survey">
+	<h1>Coffee Survey</h1>
+	<aside>
+		<img src="./images/espresso.jpg">
+	</aside>
+	<form method="GET" action="#">
+		<fieldset>
+			<legend>Personal Information</legend>
+
+			<label for="name">Your name</label></br>
+			<input type="text" name="name" id="name" size="40" required /></br>
+
+			<label for="mail">Email Address</label></br>
+			<input type="email" name="mail" id="mail" placeholder="enter a valid email address" size="40" required />
+		</fieldset>
+
+		<fieldset>
+			<legend>Your Coffee Preferences:</legend>
+
+			<label for="preparation">Tell us your coffee preparation methods.</label></br>
+			<textarea id="preparation" name="preparation" rows="6" cols="40"></textarea>
+
+			</br></br>
+
+			Do you grind your own beans?</br>
+			<input type="radio" name="grind" value="y">Yes</br>
+			<input type="radio" name="grind" value="n">No
+
+			</br></br>
+
+			How do you drink your coffee?</br>
+			<input type="checkbox" name="sugar" value="sugar">With sugar</br>
+			<input type="checkbox" name="sugar" value="cream">With cream
+
+			</br></br>
+
+			What is your favorite coffee drink?</br>
+			<select name="drink">
+				<option>please select a drink</option>
+				<option value="dr">drip coffee</option>
+				<option value="fr">french press</option>
+				<option value="es">espresso</option>
+				<option value="la">latte</option>
+				<option value="fl">flavored</option>
+			</select>
+		</fieldset>
+
+		</br></br>
+
+		<input type="submit" value="Send">
+	</form>
+</main>
+
+<footer>
+	<nav class="footer-nav">
+		<a href="index.html">Home</a>
+		<a href="roasting.html">Roasting</a>
+		<a href="grinding.html">Grinding</a>
+		<a href="brewing.html">Brewing</a>
+		<a href="drinks.html">Drinks</a>
+		<a href="survey.html">Coffee Survey</a>
+	</nav>
+</footer>
+</body>
+</html>
